@@ -49,7 +49,6 @@ public class UserController {
     }
 
 
-    //TODO: cannot change id variable while edit user information
     @ApiOperation(value = "Edit user")
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "editing was successful"),

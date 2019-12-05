@@ -44,7 +44,6 @@ public class UserServiceTest {
     @Rule
     public ExpectedException thrown = ExpectedException.none();
 
-    //TODO: add exception testCase
     @Test
     public void getAllUsers() {
         given(this.userRepository.findAll()).willReturn(Collections.singletonList(new User(
